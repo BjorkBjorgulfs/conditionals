@@ -1,18 +1,11 @@
-This project is a simple contact list management application built using TypeScript. It allows you to add, remove, edit, and view contacts. The application interacts with the DOM for optional visual feedback, but all primary functionalities are accessible through the browser console.
+This school project displays a list of people and allows users to interact with the data through buttons. The data is from a mockaroo list https://api.mockaroo.com/api/6352abc0?count=5&key=632d7f80 
+The buttons trigger various JavaScript functions that analyze the data and display the results in the browser.
 
-Open the index.html file in your web browser.
-
-Open the Developer Tools:
-
-Press F12 or Ctrl+Shift+I to open the Developer Tools.
-Go to the "Console" tab.
-
-You can now use the functions mentioned above directly in the console. For example:
-javascript
-Copy code
-add({ name: "Jane Doe", email: "jane@example.com" });
-listAll();
-get("jane@example.com");
-edit("jane@example.com", { phoneNumber: "123-456-7890" });
-remove("jane@example.com");
-clear();
+Features
+Displays a table with people's names, birth dates, number of children, countries, and whether they know how to program.
+Provides interactive buttons that answer questions based on the data:
+Is the first person older than the last person?
+Does the 2nd person have the same number of children as the 3rd person?
+Do the 1st and 4th person both know how to program?
+What is the nationality of the 2nd person?
+Is the 2nd person's name longer than 5 characters?
